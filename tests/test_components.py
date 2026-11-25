@@ -49,6 +49,9 @@ def test_verifier_returns_verdict_and_citations(client: Webcite, api: RecordedAp
     assert verdict["response"]["claim_groups"][0]["claim"] == claim
     assert [d.meta["url"] for d in out["documents"]][0] == NASA
     assert all(d.meta["claim"] == claim for d in out["documents"])
+    first = verdict["response"]["claim_groups"][0]["citations"][0]
+    assert out["documents"][0].meta["passage_sha256"] == first["passage"]["sha256"]
+    assert out["documents"][0].content == first["passage"]["text"]
     assert len(out["documents"]) == 2
     assert api.bodies[0]["source_urls"] == [NASA]
 

@@ -26,12 +26,14 @@ def citations(response: Mapping[str, Any]) -> list[Mapping[str, Any]]:
 
 def citation_document(citation: Mapping[str, Any]) -> Document:
     """One citation as a Document: the bound source passage as content."""
-    passage = (citation.get("passage") or {}).get("text") or citation.get("snippet")
+    bound = citation.get("passage") or {}
+    passage = bound.get("text") or citation.get("snippet")
     meta = {
         "url": citation.get("url"),
         "title": citation.get("title"),
         "stance": citation.get("stance"),
         "citation_id": citation.get("id"),
+        "passage_sha256": bound.get("sha256"),
     }
     return Document(
         content=str(passage or citation.get("title") or citation.get("url")),
