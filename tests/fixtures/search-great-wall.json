@@ -1,0 +1,431 @@
+{
+ "claim_groups": [
+  {
+   "claim": "Great Wall of China visibility from the Moon",
+   "citations": [
+    {
+     "title": "nasa.gov",
+     "url": "https://www.nasa.gov/image-article/great-wall/",
+     "snippet": "The Great Wall of China and Inner Mongolia are featured in this image photographed by Expedition 10 Commander Leroy Chiao on the International Space Station. Despite myths to the contrary, the wall isn't visible from the moon, and is difficult or impossible to see from Earth orbit without the high-powered lenses used for this photo.",
+     "snippet_source": "fetched",
+     "id": "1",
+     "author": "nasa.gov",
+     "status": "verified",
+     "credibility_score": null,
+     "credibility_basis": "unknown",
+     "evidence": {
+      "version": 1,
+      "originalUrl": "https://www.nasa.gov/image-article/great-wall/",
+      "finalUrl": "https://www.nasa.gov/image-article/great-wall/",
+      "state": "matched",
+      "contentHash": "521646a10e58df76f13eca314db4c9f37e97415c7b9d66a9d0be7e6b1e3d163b",
+      "retrievedAt": "2026-11-24T19:21:19.582Z",
+      "extractionVersion": "publisher-blocks-v6",
+      "quoteMatch": "exact",
+      "retention": "hash_only",
+      "replayable": false,
+      "failureReason": null,
+      "dates": [],
+      "capture": {
+       "httpStatus": 200,
+       "contentType": "text/html; charset=UTF-8",
+       "extractedTextHash": "42ff1ef09fe34966b530d235911908dae0047672963471d27acc04ead2946288",
+       "robotsNoarchive": false
+      },
+      "context": [
+       "Image Article",
+       "The Great Wall of China and Inner Mongolia are featured in this image photographed by Expedition 10 Commander Leroy Chiao on the International Space Station. Despite myths to the contrary, the wall isn\u2019t visible from the moon, and is difficult or impossible to see from Earth orbit without the high-powered lenses used for this photo."
+      ]
+     },
+     "rank": 1,
+     "source_type": "Government Document",
+     "snippet_extraction": "extracted",
+     "passage": {
+      "text": "The Great Wall of China and Inner Mongolia are featured in this image photographed by Expedition 10 Commander Leroy Chiao on the International Space Station. Despite myths to the contrary, the wall isn't visible from the moon, and is difficult or impossible to see from Earth orbit without the high-powered lenses used for this photo.",
+      "sha256": "8ae9e93f732cc5e7badc277064f9a42a02d23314e0e32c390b078e1c850d74a7"
+     },
+     "stance": "contradicts",
+     "stance_confidence": 98,
+     "stance_confidence_basis": "unknown",
+     "stance_explanation": "The Great Wall of China and Inner Mongolia are featured in this image photographed by Expedition 10 Commander Leroy Chiao on the International Space Station.",
+     "stance_distribution": null,
+     "highlight_terms": [
+      "Despite myths to the contrary",
+      "the wall isn't visible from the moon",
+      "difficult or impossible to see from Earth orbit without the high-powered lenses"
+     ],
+     "highlight_spans": [],
+     "ranking_factors": {
+      "source_authority": 95,
+      "content_relevance": 95,
+      "recency": null
+     },
+     "entity_match": true,
+     "entity_match_score": 100,
+     "content_relevance": 95,
+     "source_metadata": {
+      "domain": "nasa.gov",
+      "domain_category": "government",
+      "is_primary_source": true,
+      "is_fact_check_site": false
+     },
+     "group_id": "group-nasa-gov",
+     "is_group_primary": true
+    },
+    {
+     "title": "britannica.com",
+     "url": "https://www.britannica.com/question/Can-you-see-the-Great-Wall-of-China-from-space",
+     "snippet": "Because its coloration and texture blend into the surrounding hills, mountains, and desert terrain, it lacks the optical contrast needed to stand out against Earth's surface",
+     "snippet_source": "grounding",
+     "id": "5",
+     "author": "britannica.com",
+     "status": "unverified",
+     "credibility_score": null,
+     "credibility_basis": "unknown",
+     "evidence": {
+      "version": 1,
+      "originalUrl": "https://www.britannica.com/question/Can-you-see-the-Great-Wall-of-China-from-space",
+      "finalUrl": null,
+      "state": "discovered",
+      "contentHash": null,
+      "retrievedAt": null,
+      "extractionVersion": "publisher-blocks-v6",
+      "quoteMatch": "not_attempted",
+      "retention": "hash_only",
+      "replayable": false,
+      "failureReason": "publisher_refused",
+      "dates": [],
+      "evidenceKind": "search_snippet",
+      "readerLimitations": [
+       "publisher refused the reader (HTTP 403); text is the search result snippet, not read from the page"
+      ]
+     },
+     "rank": 2,
+     "source_type": "Article",
+     "snippet_extraction": "search_snippet",
+     "stance": "inconclusive",
+     "stance_confidence": 0,
+     "stance_confidence_basis": "unknown",
+     "stance_distribution": null,
+     "highlight_terms": [],
+     "stance_explanation": "Publisher evidence is not matched; this source remains an unresolved discovery candidate.",
+     "highlight_spans": [],
+     "ranking_factors": {
+      "source_authority": 85,
+      "content_relevance": 75,
+      "recency": null
+     },
+     "entity_match": true,
+     "entity_match_score": 20,
+     "content_relevance": 75,
+     "source_metadata": {
+      "domain": "britannica.com",
+      "domain_category": "encyclopedia",
+      "is_primary_source": false,
+      "is_fact_check_site": false
+     },
+     "group_id": "group-britannica-com",
+     "is_group_primary": true
+    },
+    {
+     "title": "skyatnightmagazine.com",
+     "url": "https://www.skyatnightmagazine.com/space-science/can-you-see-great-wall-china-from-space",
+     "snippet": "It was during the Apollo missions that the myth of being able to see the Great Wall of China from the surface of the Moon was empirically debunked.",
+     "snippet_source": "fetched",
+     "id": "2",
+     "author": "skyatnightmagazine.com",
+     "status": "verified",
+     "credibility_score": null,
+     "credibility_basis": "unknown",
+     "evidence": {
+      "version": 1,
+      "originalUrl": "https://www.skyatnightmagazine.com/space-science/can-you-see-great-wall-china-from-space",
+      "finalUrl": "https://www.skyatnightmagazine.com/space-science/can-you-see-great-wall-china-from-space",
+      "state": "matched",
+      "contentHash": "a4d42f66a0bff28720a5b38e48994859fe828464241803666f6b5ee04767d347",
+      "retrievedAt": "2026-11-24T19:21:19.568Z",
+      "extractionVersion": "publisher-blocks-v6",
+      "quoteMatch": "exact",
+      "retention": "hash_only",
+      "replayable": false,
+      "failureReason": null,
+      "dates": [
+       {
+        "value": "2024-02-27",
+        "precision": "day",
+        "kind": "published",
+        "basis": "publisher_metadata"
+       },
+       {
+        "value": "2026-10-27",
+        "precision": "day",
+        "kind": "updated",
+        "basis": "publisher_metadata"
+       },
+       {
+        "value": "2024-10-01",
+        "precision": "day",
+        "kind": "updated",
+        "basis": "publisher_metadata"
+       }
+      ],
+      "capture": {
+       "httpStatus": 200,
+       "contentType": "text/html; charset=utf-8",
+       "extractedTextHash": "010988d61fdfd59c8f28368b0cc9c4fac1f8c9df622beec7bacd5fcc5ab7076c",
+       "robotsNoarchive": true
+      },
+      "context": [
+       "Apollo 12 astronaut Alan Bean on the surface of the Moon, 20 November 1969. Credit: NASA",
+       "Apollo 12 Lunar Module Pilot Alan Bean is quoted as saying: \"The only thing you can see from the Moon is a beautiful sphere, mostly white, some blue and patches of yellow, and every once in a while some green vegetation."
+      ]
+     },
+     "rank": 3,
+     "source_type": "Trusted Media",
+     "snippet_extraction": "extracted",
+     "publication_year": 2024,
+     "publication_year_basis": "page",
+     "passage": {
+      "text": "It was during the Apollo missions that the myth of being able to see the Great Wall of China from the surface of the Moon was empirically debunked.",
+      "sha256": "4b214ea7351cd90eaf341eeed62f950efa00d26e5d761a2fee442e873f00b9e1"
+     },
+     "stance": "contradicts",
+     "stance_confidence": 95,
+     "stance_confidence_basis": "unknown",
+     "stance_explanation": "It was during the Apollo missions that the myth of being able to see the Great Wall of China from the surface of the Moon was empirically debunked.",
+     "stance_distribution": null,
+     "highlight_terms": [
+      "during the Apollo missions that the myth of being able to see the Great Wall of China from the surface of the Moon was empirically debunked"
+     ],
+     "highlight_spans": [],
+     "ranking_factors": {
+      "source_authority": null,
+      "content_relevance": 95,
+      "recency": 80
+     },
+     "entity_match": true,
+     "entity_match_score": 100,
+     "content_relevance": 95,
+     "source_metadata": {
+      "domain": "skyatnightmagazine.com",
+      "domain_category": "other",
+      "is_primary_source": false,
+      "is_fact_check_site": false
+     },
+     "group_id": "group-skyatnightmagazine-com",
+     "is_group_primary": true
+    },
+    {
+     "title": "nih.gov",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3972694/",
+     "snippet": "From Low Earth Orbit (LEO): Even from the International Space Station or low Earth orbit (approx. 300\u2013400 km altitude)\u2014which is roughly a thousand times closer than the Moon\u2014astronauts, including ...",
+     "snippet_source": "grounding",
+     "id": "6",
+     "author": "pmc.ncbi.nlm.nih.gov",
+     "status": "unverified",
+     "credibility_score": null,
+     "credibility_basis": "unknown",
+     "evidence": {
+      "version": 1,
+      "originalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3972694/",
+      "finalUrl": null,
+      "state": "discovered",
+      "contentHash": null,
+      "retrievedAt": null,
+      "extractionVersion": "publisher-blocks-v6",
+      "quoteMatch": "not_attempted",
+      "retention": "hash_only",
+      "replayable": false,
+      "failureReason": "publisher_refused",
+      "dates": [],
+      "evidenceKind": "search_snippet",
+      "readerLimitations": [
+       "publisher refused the reader (HTTP 403); text is the search result snippet, not read from the page"
+      ]
+     },
+     "rank": 4,
+     "source_type": "Journal",
+     "snippet_extraction": "search_snippet",
+     "stance": "inconclusive",
+     "stance_confidence": 0,
+     "stance_confidence_basis": "unknown",
+     "stance_distribution": null,
+     "highlight_terms": [],
+     "stance_explanation": "Publisher evidence is not matched; this source remains an unresolved discovery candidate.",
+     "highlight_spans": [],
+     "ranking_factors": {
+      "source_authority": 95,
+      "content_relevance": 70,
+      "recency": null
+     },
+     "entity_match": true,
+     "entity_match_score": 20,
+     "content_relevance": 70,
+     "source_metadata": {
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "domain_category": "government",
+      "is_primary_source": true,
+      "is_fact_check_site": false
+     },
+     "group_id": "group-pmc-ncbi-nlm-nih-gov",
+     "is_group_primary": true
+    },
+    {
+     "title": "ancient-origins.net",
+     "url": "https://www.ancient-origins.net/news-history-archaeology/great-wall-of-china-visible-from-space-fact-check-00128450",
+     "snippet": "Fringe: The Great Wall can be seen with the naked eye from the Moon. Reason: NASA says it certainly isn't visible from the Moon.",
+     "snippet_source": "fetched",
+     "id": "4",
+     "author": "ancient-origins.net",
+     "status": "verified",
+     "credibility_score": null,
+     "credibility_basis": "unknown",
+     "evidence": {
+      "version": 1,
+      "originalUrl": "https://www.ancient-origins.net/news-history-archaeology/great-wall-of-china-visible-from-space-fact-check-00128450",
+      "finalUrl": "https://www.ancient-origins.net/news-history-archaeology/great-wall-of-china-visible-from-space-fact-check-00128450",
+      "state": "matched",
+      "contentHash": "42a54bc97e3bbd5a45fb2fba4a5c46a45ded57e9bc0802314f0d3556c48757e3",
+      "retrievedAt": "2026-11-24T19:21:19.595Z",
+      "extractionVersion": "publisher-blocks-v6",
+      "quoteMatch": "exact",
+      "retention": "hash_only",
+      "replayable": false,
+      "failureReason": null,
+      "dates": [
+       {
+        "value": "2026-11-24",
+        "precision": "day",
+        "kind": "published",
+        "basis": "publisher_metadata"
+       },
+       {
+        "value": "2026-11-24",
+        "precision": "day",
+        "kind": "updated",
+        "basis": "publisher_metadata"
+       }
+      ],
+      "capture": {
+       "httpStatus": 200,
+       "contentType": "text/html; charset=UTF-8",
+       "extractedTextHash": "a95fbc4c564e0c6fb685f746b5e1ba4632c1738499de8e06c2f2153bb7983633",
+       "robotsNoarchive": false
+      },
+      "context": [
+       "Fringe: The Great Wall of China is the only human-made structure visible to the naked eye from space, or even from the Moon. Reason: it cannot be seen from the Moon, it is very hard to see from low orbit, and other human works are easier to spot.",
+       "Disputed: The wall can sometimes be seen by eye from low Earth orbit in good light. Reason: Cernan and Lu say they saw it, while Yang, Hoffman and Chiao did not."
+      ]
+     },
+     "rank": 5,
+     "source_type": "Article",
+     "snippet_extraction": "extracted",
+     "publication_year": 2026,
+     "publication_year_basis": "page",
+     "passage": {
+      "text": "Fringe: The Great Wall can be seen with the naked eye from the Moon. Reason: NASA says it certainly isn't visible from the Moon.",
+      "sha256": "4da8182c51e83f4fe73182fed3712ab4d7902acfd59ac68fde692a83421e76c3"
+     },
+     "stance": "contradicts",
+     "stance_confidence": 98,
+     "stance_confidence_basis": "unknown",
+     "stance_explanation": "Fringe: The Great Wall can be seen with the naked eye from the Moon.",
+     "stance_distribution": null,
+     "highlight_terms": [
+      "The Great Wall can be seen with the naked eye from the Moon",
+      "NASA says it certainly isn't visible from the Moon"
+     ],
+     "highlight_spans": [],
+     "ranking_factors": {
+      "source_authority": null,
+      "content_relevance": 100,
+      "recency": 100
+     },
+     "entity_match": true,
+     "entity_match_score": 100,
+     "content_relevance": 100,
+     "source_metadata": {
+      "domain": "ancient-origins.net",
+      "domain_category": "other",
+      "is_primary_source": false,
+      "is_fact_check_site": false
+     },
+     "group_id": "group-ancient-origins-net",
+     "is_group_primary": true
+    },
+    {
+     "title": "travelchinaguide.com",
+     "url": "https://www.travelchinaguide.com/china_great_wall/facts/seen-from-space.htm",
+     "snippet": "The claim that \u201cthe Great Wall is the only man-made structure visible to the naked eye from the moon\u201d first appeared in a letter written by British archaeologist William Stukeley in 1754, 215 years before the first human landing on the moon. The most widespread version originated from a comic book published in 1932, Ripley's Believe It or Not, which claimed that \u201cthe Great Wall is the sole man-made structure visible from the moon when gazing at Earth\u201d. Since then, this legend has spread rapidly through textbooks, documentaries, and casual conversations around the world.",
+     "snippet_source": "fetched",
+     "id": "3",
+     "author": "travelchinaguide.com",
+     "status": "verified",
+     "credibility_score": null,
+     "credibility_basis": "unknown",
+     "evidence": {
+      "version": 1,
+      "originalUrl": "https://www.travelchinaguide.com/china_great_wall/facts/seen-from-space.htm",
+      "finalUrl": "https://www.travelchinaguide.com/china_great_wall/facts/seen-from-space.htm",
+      "state": "matched",
+      "contentHash": "1fb503410b3dfc567ec6544df68cd079204a61c6f0a3fa14a95180e379b00ba7",
+      "retrievedAt": "2026-11-24T19:21:19.587Z",
+      "extractionVersion": "publisher-blocks-v6",
+      "quoteMatch": "exact",
+      "retention": "hash_only",
+      "replayable": false,
+      "failureReason": null,
+      "dates": [],
+      "capture": {
+       "httpStatus": 200,
+       "contentType": "text/html; charset=utf-8",
+       "extractedTextHash": "85a308e4cadbf6d8f748f336ea7e087d05bb85eab07b54d89c3a1ea858d4c696",
+       "robotsNoarchive": false
+      },
+      "context": [
+       "The origin of the claim that the Great Wall can be seen from space",
+       "Astronauts confirm the Great Wall is not visible from space."
+      ]
+     },
+     "rank": 6,
+     "source_type": "Article",
+     "snippet_extraction": "extracted",
+     "passage": {
+      "text": "The claim that \u201cthe Great Wall is the only man-made structure visible to the naked eye from the moon\u201d first appeared in a letter written by British archaeologist William Stukeley in 1754, 215 years before the first human landing on the moon. The most widespread version originated from a comic book published in 1932, Ripley's Believe It or Not, which claimed that \u201cthe Great Wall is the sole man-made structure visible from the moon when gazing at Earth\u201d. Since then, this legend has spread rapidly ",
+      "sha256": "fc83df5ea72d8135c9c2e05abc418707b265af0c0eaa4f286a75c71275367fd9"
+     },
+     "stance": "contradicts",
+     "stance_confidence": 92,
+     "stance_confidence_basis": "unknown",
+     "stance_explanation": "The claim that \u201cthe Great Wall is the only man-made structure visible to the naked eye from the moon\u201d first appeared in a letter written by British archaeologist William Stukeley in 1754, 215 years before the first human landing on the moon.",
+     "stance_distribution": null,
+     "highlight_terms": [
+      "first appeared in a letter written by British archaeologist William Stukeley in 1754",
+      "claimed that the Great Wall is the sole man-made structure visible from the moon",
+      "this legend has spread rapidly through textbooks"
+     ],
+     "highlight_spans": [],
+     "ranking_factors": {
+      "source_authority": null,
+      "content_relevance": 95,
+      "recency": null
+     },
+     "entity_match": true,
+     "entity_match_score": 100,
+     "content_relevance": 95,
+     "source_metadata": {
+      "domain": "travelchinaguide.com",
+      "domain_category": "other",
+      "is_primary_source": false,
+      "is_fact_check_site": false
+     },
+     "group_id": "group-travelchinaguide-com",
+     "is_group_primary": true
+    }
+   ]
+  }
+ ],
+ "usage": {
+  "credits": 2
+ }
+}
