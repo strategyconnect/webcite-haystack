@@ -15,9 +15,8 @@ credits, renewing every 30 days while credits remain.
 
 ## Install
 
-<!-- Switch back to "pip install webcite-haystack" once it is published on PyPI. -->
 ```bash
-pip install "git+https://github.com/strategyconnect/webcite-python.git@v0.1.0" "git+https://github.com/strategyconnect/webcite-haystack.git@v0.1.0"
+pip install webcite-haystack
 export WEBCITE_API_KEY=...   # create one at https://webcite.co/api-keys
 ```
 
